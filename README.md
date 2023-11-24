@@ -1,8 +1,22 @@
-# React + Vite
+# GitHub Finder
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+GitHub Finder is a simple React application that allows users to search for GitHub profiles and displays relevant information about the user. Users can add multiple profiles to the list and remove them individually.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **User Search:** Enter a GitHub username to fetch and display information about the user.
+- **Profile Cards:** View detailed information about each user in a card format.
+- **Remove User:** Remove a user from the list of displayed profiles.
+
+## Technologies Used
+
+- **React:** The application is built using the React library, allowing for a modular and efficient component-based structure.
+- **GitHub API:** User data is fetched from the GitHub API to display accurate and up-to-date information.
+
+## Getting Started
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/your-username/github-finder.git
+   ```
