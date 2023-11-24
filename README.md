@@ -18,5 +18,5 @@ GitHub Finder is a simple React application that allows users to search for GitH
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/github-finder.git
+   git clone https://github.com/toine08/react-github-users.git
    ```
