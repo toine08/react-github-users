@@ -1,4 +1,5 @@
 import type { GithubData } from "../App";
+import React from "react";
 
 type Props = {
   data: GithubData;
@@ -36,7 +37,7 @@ export default function Card({ data }: Props) {
       </div>
       <div className="flex flex-shrink-0 mt-4 ml-4">
         <span className="inline-flex ml-3 rounded-md">
-          <a href={data.html_url}>
+          <a href={data.html_url} target="_blank">
             <button
               type="button"
               className="relative inline-flex items-center px-4 py-2 mr-2 text-sm font-medium text-gray-700 bg-white border border-gray-300 leading-5 rounded-md hover:text-gray-500 focus:outline-none focus:shadow-outline-blue focus:border-blue-300 active:bg-gray-50 active:text-gray-800"
